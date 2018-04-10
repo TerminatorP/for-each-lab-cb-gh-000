@@ -7,3 +7,6 @@ function iterate(callback) {
   arrFriends.forEach(callback);
   return arrFriends;
 }
+function doToArray(array, callback) {
+  array.forEach(callback);
+}
